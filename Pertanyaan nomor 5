@@ -1,0 +1,10 @@
+SOAL: Apakah yang salah dengan statement berikut? Berikan penjelasan.
+      var file = new File(“C:\Data\Java\teks.txt”);
+
+yang salah dari
+var file = new File(“C:\Data\Java\teks.txt”);
+
+adalah karena tulisan itu salah, harusnya var file = new File(“C:\\Data\\Java\\teks.txt”);
+atau var file = new File(“C:/DataJava/teks.txt”);
+
+bila tidak java akan mengira D atau t nya adalah sebuah perintah seperti \n untuk enter

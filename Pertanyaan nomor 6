@@ -1,0 +1,7 @@
+SOAL: Apa yang akan terjadi jika kita mencoba untuk membaca isi dari suatu file tetapi
+      file tersebut tidak ada dan kita tidak melakukan pengecekan lebih dulu?
+
+Ketika kita mengecek suatu file atau membacanya dengan program, sedangkan file
+itu tidak ada. Maka akan terjadi error FileNotFoundException dan crash bila
+tidak ada try-catchnya, biasanya untuk melakukan pengecekan akan ditambahkan
+catch error IOException.
